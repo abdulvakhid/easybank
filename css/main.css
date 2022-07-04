@@ -54,13 +54,16 @@ body {
 
 .site-header {
     padding: 18px 0;
-
+    position: relative;
+    z-index: 24;
+    background-color: #fff;
 }
 
 .header-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
 }
 
 
@@ -136,16 +139,16 @@ body {
 }
 
 .hero::after {
-    display: block;
     content: "";
     background-image: url("../images/easy-img-bg.svg");
     background-repeat: no-repeat;
     background-size: contain;
     width: 1371px;
     height: 1037px;
+    z-index: 1;
     position: absolute;
-    right: calc(50% - 1212px);
-    top: calc(50% + -318px);
+    right: calc(50% - 1218px);
+    top: calc(50% + -411px);
 }
 
 
