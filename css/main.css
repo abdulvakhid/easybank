@@ -1055,14 +1055,14 @@ body {
     .articles__item--money::before {
         background-image: url("../images/mobile-money.png");
         width: 327px;
-        height: 193px;
+        height: 185px;
     }
 
 
     .articles__item--meal::before {
         background-image: url("../images/mobile-meal.png");
         width: 327px;
-        height: 193px;
+        height: 185px;
     }
 
     .articles__item--travel::before {
